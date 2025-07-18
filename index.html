@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vault of Codes - Certificate Verification</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Vault of Codes</div>
+      <ul class="nav-links">
+        <li><a href="#verify">Verify Certificate</a></li>
+        <li><a href="#internships">Internships</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="verify" class="verify-section">
+    <h1>Certificate Verification</h1>
+    <p>Enter your certificate ID to verify its authenticity.</p>
+    <form id="verify-form">
+      <input type="text" id="cert-id" placeholder="e.g. VOC-123456" required />
+      <button type="submit">Verify</button>
+    </form>
+    <div id="verify-result"></div>
+  </section>
+
+  <section id="internships" class="internships">
+    <h2>Available Internships</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Full Stack Web Development</h3>
+        <p>1-month remote internship with certificate</p>
+      </div>
+      <div class="card">
+        <h3>AI & Machine Learning</h3>
+        <p>1-month project-based internship with mentorship</p>
+      </div>
+      <div class="card">
+        <h3>Java Programming</h3>
+        <p>Hands-on training + certificate upon completion</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Vault of Codes. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
